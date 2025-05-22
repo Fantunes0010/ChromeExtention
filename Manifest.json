@@ -1,0 +1,20 @@
+{
+  "name": "Don't vibe ",
+  "description": "A guide to a good vibe",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": [
+    "tabGroups",
+    "activeTab",
+    "webNavigation",
+    "tabs"
+],
+  "background": {
+    "service_worker": "backend.js",
+  "host_permissions": ["*://*/*"],
+  "action": {
+    "default_popup": "hello.html",
+    "default_icon": "icon.png"
+  }
+  }
+}
