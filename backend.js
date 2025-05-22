@@ -27,12 +27,3 @@ async function getCurrTab() {
 
 
 
-
-
-// chrome.tabs.onUpdated.addEventListener(async(tab) => {
-//     const tab = await getCurrTab();
-//     console.log(tab);
-//     if (tab?.redirectUrl) {
-//         chrome.tabs.update({ url: tab.redirectUrl });
-//     }
-// });
